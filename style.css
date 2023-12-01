@@ -28,12 +28,35 @@
 .main-menu nav ul{
 
 }
-.main-menu nav ul li{
-    display: inline;
-    margin-left: 20px;
-
+.main-menu nav ul li {
+	display: inline;
+	margin-left: 20px;
+	position: relative;
+	padding: 10px;
+	background: aliceblue;
+	border-radius: 3px;
+    transition: .3s;
+}
+.main-menu nav ul li:hover  {
+    background: #000;
+}
+.main-menu nav ul li:hover a {
+    color: #fff;
 }
 .main-menu nav ul li a{
     text-decoration: none;
+    transition: .3s;
     
+}
+.main-menu nav ul li ul{
+    
+}
+.main-menu nav ul li ul li{
+
+}
+.dropdown {
+	position: absolute;
+	left: -60px;
+	top: 30px;
+	display: none;
 }
