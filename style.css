@@ -1,0 +1,39 @@
+.header-area{
+    max-width: 1190px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header-top-area{
+    width: 100%;
+}
+
+.logo{
+    float: left;
+    width: 30%;
+    padding: 15px 0;
+
+}
+
+.main-menu{
+    float: left;
+    width: 70%;
+    text-align: right;
+}
+
+.main-menu nav{
+
+}
+.main-menu nav ul{
+
+}
+.main-menu nav ul li{
+    display: inline;
+    margin-left: 20px;
+
+}
+.main-menu nav ul li a{
+    text-decoration: none;
+    
+}
