@@ -82,4 +82,12 @@
     .main-menu nav ul li {
         display: block;
     }
+    #nav {
+        padding-top: 20px;
+    }
+    .main-menu {
+        float: right;
+        width: 30%;
+        text-align: right;
+    }
   }
