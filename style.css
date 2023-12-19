@@ -75,4 +75,7 @@
     nav{
         display: none;
     }
+    .main-menu nav ul li {
+        display: block;
+    }
   }
