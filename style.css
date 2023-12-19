@@ -60,4 +60,19 @@
 	top: 30px;
 	display: none;
 }
-b    
+.menu-icon {
+	display: none !important;
+}
+
+
+@media screen and (max-width: 991px) {
+    .menu-icon{
+        display: block;
+    }
+    .menu-icon {
+        display: block !important;
+    }
+    nav{
+        display: none;
+    }
+  }
